@@ -48,5 +48,4 @@ public class SelfStoreProductClient {
     public void deleteProduct(UUID uuid){
       productRepository.deleteById(uuid);
     }
-
 }
