@@ -15,6 +15,8 @@ import java.util.Optional;
 //  @RestController is used when you want your Spring MVC controller to handle RESTful
 // requests and return data directly, without rendering HTML views. It's commonly
 // used in building APIs for web and mobile applications.
+//It combines @Controller and @ResponseBody annotations. It is typically used in a Spring MVC
+// application to create RESTful web services.
 @RestController
 @RequestMapping("/products")
 public class ProductController {
